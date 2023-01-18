@@ -1,0 +1,41 @@
+*{
+     margin:0;
+}
+body{
+     color: white;
+     font-family: sans-serif;
+     
+}
+.top-bar{
+     display: flex;
+justify-content: space-between;
+background-color: rgb(17, 77, 129);
+padding: 0.4em;
+
+}
+.list {
+     display: none;
+}
+
+ul{
+     list-style-type: none;
+font-size: 12px;
+text-align: center;
+background: rgb(17, 50, 78);
+padding: 2em;
+color: rgb(86, 146, 199);
+width: 60px;
+float: right;
+height: 160px;
+}
+ul li{
+     padding-bottom: 5px;
+}
+p{
+     color: rgb(7, 53, 95);
+     font-size: 8px;
+     padding: 1em;
+}
+ul li:hover{
+     color: white;
+}
